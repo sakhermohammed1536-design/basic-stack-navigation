@@ -8,7 +8,7 @@ class DetailScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Detail Screen"),
+        title: Text("Detail_Screen"),
         centerTitle: true,
         backgroundColor: const Color.fromARGB(255, 161, 205, 234),
       ),
@@ -17,7 +17,7 @@ class DetailScreen extends StatelessWidget {
           onPressed: () {
             Navigator.pop(context);
           },
-          child: Text("Pop to Home-Screen"),
+          child: Text("pop to Home_Screen"),
         ),
       ),
     );
